@@ -26,50 +26,38 @@ const AboutMe = () => {
           />
         </div>
       </div>
-     <div>
+      <div>
         <div>
-          <SectionTitle title="About Me" subTitle="Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra" />
-           
-        </div>
-     <div className="grid md:grid-cols-2 xl:grid-cols-1 items-center gap-5">
-        <div className="mt-5">
-          <h3 className="text-lg md:text-2xl font-semibold mb-3">UX </h3>
-          <Slider
-            defaultValue={[95]}
-            max={100}
-            step={1}
-            className={cn("")}
+          <SectionTitle
+            title="About Me"
+            subTitle="Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra"
           />
         </div>
-        <div className="mt-5">
-          <h3 className="text-lg md:text-2xl font-semibold mb-3">Website Design </h3>
-          <Slider
-            defaultValue={[90]}
-            max={100}
-            step={1}
-            className={cn("")}
-          />
-        </div>
-        <div className="mt-5">
-          <h3 className="text-lg md:text-2xl font-semibold mb-3">App Design  </h3>
-          <Slider
-            defaultValue={[96]}
-            max={100}
-            step={1}
-            className={cn("")}
-          />
-        </div>
-        <div className="mt-5">
-          <h3 className="text-lg md:text-2xl font-semibold mb-3">Graphic Design  </h3>
-          <Slider
-            defaultValue={[92]}
-            max={100}
-            step={1}
-            className={cn("")}
-          />
+        <div className="grid md:grid-cols-2 xl:grid-cols-1 items-center gap-5">
+          <div className="mt-5">
+            <h3 className="text-lg md:text-2xl font-semibold mb-3">UX </h3>
+            <Slider defaultValue={[95]} max={100} step={1} className={cn("")} />
+          </div>
+          <div className="mt-5">
+            <h3 className="text-lg md:text-2xl font-semibold mb-3">
+              Website Design{" "}
+            </h3>
+            <Slider defaultValue={[90]} max={100} step={1} className={cn("")} />
+          </div>
+          <div className="mt-5">
+            <h3 className="text-lg md:text-2xl font-semibold mb-3">
+              App Design{" "}
+            </h3>
+            <Slider defaultValue={[96]} max={100} step={1} className={cn("")} />
+          </div>
+          <div className="mt-5">
+            <h3 className="text-lg md:text-2xl font-semibold mb-3">
+              Graphic Design{" "}
+            </h3>
+            <Slider defaultValue={[92]} max={100} step={1} className={cn("")} />
+          </div>
         </div>
       </div>
-     </div>
     </div>
   );
 };

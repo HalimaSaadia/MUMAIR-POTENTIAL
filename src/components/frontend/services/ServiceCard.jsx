@@ -13,7 +13,7 @@ const ServiceCard = ({ data }) => {
       />
      </div>
       <div>
-        <h3 className="text-2xl md:text-3xl font-semibold my-4 dark:text-black">{data?.name}</h3>
+        <h3 className="text-2xl lg:text-3xl font-semibold my-4 dark:text-black">{data?.name}</h3>
         <h3 className="text-sm md:text-lg lg:text-base xl:text-lg dark:text-black">{data?.description}</h3>
       </div>
     </div>

@@ -3,6 +3,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/provider/ThemeProvider";
 import Navbar from "@/components/shared/Navbar";
 import { Poppins } from 'next/font/google';
+import Footer from "@/components/shared/Footer";
 
 
 const poppins = Poppins({
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} antialiased`}
+        className={`${poppins.variable} antialiased dark:bg-[#1E1E1E]`}
       >
          <ThemeProvider
             attribute="class"
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
           >
             <Navbar />
             {children}
+            <Footer />
           </ThemeProvider>
       
       </body>

@@ -11,15 +11,16 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        primary: "#FD6F00",
-      },
+   
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
       colors: {
+        mp: {
+          primary: "#FD6F00",
+        },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

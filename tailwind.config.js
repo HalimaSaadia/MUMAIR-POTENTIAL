@@ -22,6 +22,10 @@ module.exports = {
           primary: "#FD6F00",
         },
         background: "hsl(var(--background))",
+        fontFamily: {
+          poppins: ['var(--font-poppins)'],
+         
+        },
         foreground: "hsl(var(--foreground))",
         card: {
           DEFAULT: "hsl(var(--card))",

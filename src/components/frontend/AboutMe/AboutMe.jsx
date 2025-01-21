@@ -3,6 +3,7 @@ import profile from "../../../../public/images/about-me/about-me.png";
 import rectangle from "../../../../public/images/hero/Rectangle.png";
 import { Slider } from "@/components/ui/slider";
 import { cn } from "@/lib/utils";
+import SectionTitle from "@/components/shared/SectionTitle";
 
 const AboutMe = () => {
   return (
@@ -27,8 +28,8 @@ const AboutMe = () => {
       </div>
      <div>
         <div>
-            <h1 className="md:text-4xl lg:text-5xl xl:text-6xl font-semibold">About Me </h1>
-            <p className=" lg:text-lg xl:text-2xl my-5">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
+          <SectionTitle title="About Me" subTitle="Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra" />
+           
         </div>
      <div className="grid md:grid-cols-2 xl:grid-cols-1 items-center gap-5">
         <div className="mt-5">

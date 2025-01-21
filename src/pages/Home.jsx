@@ -2,6 +2,7 @@
 
 import AboutMe from "@/components/frontend/AboutMe/AboutMe";
 import Hero from "@/components/frontend/Hero/Hero";
+import ServiceSection from "@/components/frontend/services/ServiceSection";
 import { ModeToggle } from "@/components/shared/SwithcThemes";
 import { Button } from "@/components/ui/button";
 
@@ -10,6 +11,7 @@ const Home = () => {
     <div className="max-content-width mx-auto">
       <Hero />
       <AboutMe />
+      <ServiceSection />
 
       <ModeToggle />
     </div>

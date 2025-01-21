@@ -5,11 +5,13 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <div className="max-content-width mx-auto grid grid-cols-5 gap-10 md:gap-16 xl:gap-32 section-padding-x items-center section-padding-y">
+    <div className="max-content-width mx-auto grid grid-cols-5 gap-10 md:gap-16 xl:gap-24 section-padding-x items-center section-padding-y">
       <div className="col-span-5 lg:col-span-3 ">
         <div className="max-w-[714px]">
           <p className="text-lg md:text-2xl">Hi I am </p>
-          <h3 className="text-2xl md:text-[32px] text-mp-primary">Muhammad Umair </h3>
+          <h3 className="text-2xl md:text-[32px] text-mp-primary">
+            Muhammad Umair{" "}
+          </h3>
           <h1 className="text-4xl md:text-5xl xl:text-[100px] font-bold leading-title leading-none">
             UI & UX
           </h1>
@@ -33,7 +35,7 @@ const Hero = () => {
             height={83}
             width={374}
             alt="Hero section Profile"
-            className="absolute left-[14%] md:left-[23%] lg:left-[14%] xl:left-[8%] top-[12%]  xl:top-[10%] h-10 w-52 md:h-[83px] md:w-[384px] lg:h-[50px] lg:w-60 xl:h-[83px] xl:w-[384px]"
+            className="absolute left-[14%] md:left-[23%] lg:left-[14%] xl:left-[5%] top-[12%]  xl:top-[10%] h-10 w-52 md:h-[83px] md:w-[384px] lg:h-[50px] lg:w-60 xl:h-[83px] xl:w-[384px]"
           />
           <Image
             src={profile}

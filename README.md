@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Landing Page
 
-## Getting Started
+This project is a portfolio landing page designed to showcase personal information, skills, services, projects, testimonials, and contact details. It is built using **Next.js** for server-side rendering and leverages the **shadcn/ui** component library for a sleek and modern user interface.
 
-First, run the development server:
+### Github Repo: https://github.com/HalimaSaadia/MUMAIR-POTENTIAL
+### Live Link : https://mumair-potential.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features
+
+- **Home Section**: A welcoming section that introduces the portfolio.
+- **About Me**: A brief overview of personal background and expertise.
+- **Services**: Details about the services offered.
+- **Projects**: A showcase of previous projects with descriptions and links.
+- **Testimonials**: Client or peer reviews displayed in a slider format.
+- **Contact**: A form or contact details to get in touch.
+- **Dark/Light Mode Toggle**:  A switch to toggle between dark and light themes for better user experience..
+
+## Technologies Used
+
+- **Next.js**: For server-side rendering and fast performance.
+- **shadcn/ui**: For building reusable and aesthetic UI components.
+- **Swiper.js**: For creating smooth and interactive sliders.
+- **CSS,tawilwind**: For styling components.
+
+
+
+## Project Structure
+
+```
+MUMAIR-POTENTIAL/
+├── public/                      # Static assets
+├── app/                         # Routes
+├── lib/                         # Utility functions
+├── src/components/ 
+|   ├──ui                        # Shadcn UI components
+|   ├──shared                    # Reusable UI components
+|   ├──frontend/                 # Frontend UI components
+├── pages/             
+│   ├── Home.jsx                 # Home page   
+├── provider/             
+│   ├── ThemeProvider.jsx        # Theme Provider Component   
+└── package.json                 # Project metadata and dependencies
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation and Setup
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+To run this project locally:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/HalimaSaadia/MUMAIR-POTENTIAL.git
+   ```
 
-## Learn More
+2. Navigate to the project directory:
+   ```bash
+   cd MUMAIR-POTENTIAL
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+5. Open your browser and go to `http://localhost:3000` to view the application.
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Navigate through the sections using the navigation menu.
+- Explore the portfolio, view projects, and read testimonials.
+- Use the contact form to send messages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Components and Libraries
+
+- **Swiper.js**: Used for the slider in the Testimonials section.
+- **shadcn/ui**: Provides customizable components for building the UI.
+- **Next.js**: Ensures fast load times and server-side rendering.
+
+
+
+
+

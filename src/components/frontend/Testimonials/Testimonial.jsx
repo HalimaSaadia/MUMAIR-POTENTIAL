@@ -9,6 +9,7 @@ import profile1 from "../../../../public/images/testimonials/client_1.png";
 import profile2 from "../../../../public/images/testimonials/client_2.png";
 import TestimonialCard from "./TestimonialCard";
 import "./testimonial.css"
+import SectionTitle from "@/components/shared/SectionTitle";
 
 const Testimonial = () => {
   const data = [
@@ -50,7 +51,12 @@ const Testimonial = () => {
     },
   ];
   return (
-   <div className="overflow-x-hidden">
+   <div className="overflow-x-hidden section-padding-y">
+    <SectionTitle
+        title="Testimonials"
+        subTitle="Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus lectus. Phasellus consequat urna tellus"
+        className="text-center max-w-4xl mx-auto mb-12"
+      />
      <Swiper
       slidesPerView={1.2} // Show a fractional amount of slides
       centeredSlides={true} // Center the active slide

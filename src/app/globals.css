@@ -2,39 +2,58 @@
 @tailwind components;
 @tailwind utilities;
 
-.section-padding-x{
+.section-padding-x {
   @apply px-4 md:px-8 lg:px-12;
 }
-.section-padding-y{
+.section-padding-y {
   @apply py-14 md:py-16 lg:py-24;
 }
-.section-padding-b{
+.section-padding-b {
   @apply pb-14 md:pb-16 lg:pb-24;
 }
-.section-padding-t{
+.section-padding-t {
   @apply pt-14 md:pt-16 lg:pt-24;
 }
-.max-content-width{
-  @apply max-w-[1420px] mx-auto
+.max-content-width {
+  @apply max-w-[1420px] mx-auto;
 }
 
+.dark .swiper-pagination-bullet {
+  @apply bg-[#d9d9d9];
+}
 
 .swiper-pagination-bullet-active {
   color: #ff6600;
-  background: #ff6600!important;
-  width: 57.4px!important;
-  border-radius: 8px!important;
+  background: #ff6600 !important;
+  width: 57.4px !important;
+  border-radius: 8px !important;
 }
-.swiper-pagination-bullet{
-  color: #D9D9D9;
- 
-  width: 57.4px!important;
-  border-radius: 8px!important;
+.swiper-pagination-bullet {
+  color: #d9d9d9;
+
+  width: 57.4px !important;
+  border-radius: 8px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .swiper-pagination-bullet-active {
+    width: 57.4px !important;
+  }
+  .swiper-pagination-bullet {
+    width: 27.4px !important;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .swiper-pagination-bullet-active {
+    width: 57.4px !important;
+  }
+  .swiper-pagination-bullet {
+    width: 27.4px !important;
+  }
 }
 
 @layer base {
   :root {
-    
     --background: 0 0% 100%;
     --foreground: 20 14.3% 4.1%;
     --card: 0 0% 100%;
@@ -90,7 +109,6 @@
   }
 }
 
-
 @layer base {
   * {
     @apply border-border;
@@ -99,5 +117,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-
